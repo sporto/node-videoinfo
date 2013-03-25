@@ -11,7 +11,7 @@ module.exports = function (grunt) {
 				globals: [],
 				timeout: 3000,
 				ignoreLeaks: false,
-				grep: '*_test',
+				// grep: '*_test.js',
 				ui: 'bdd'
 				// reporter: 'tap'
 			},
