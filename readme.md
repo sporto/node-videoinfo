@@ -33,11 +33,3 @@ Data will have the following schema
 		thumbM: "thumbnail/path",
 		thumbL: "thumbnail/path"
 	}
-
-Get the basic information about the provider and the media id based on a url:
-
-	vi = require('videoinfo');
-	var data = vi.resolve('http://www.youtube.com/watch?v=9eHbqMayxv8');
-
-	data.provider //=> youtube
-	data.id //=> 9eHbqMayxv8
