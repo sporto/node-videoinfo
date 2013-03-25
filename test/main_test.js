@@ -13,7 +13,7 @@ describe('subject', function () {
 	});
 
 	it('has a resolve function', function () {
-		assert.isFunction(subject.resolve);
+		assert.isFunction(subject.getProvider);
 	});
 
 	describe('retrievers', function () {
@@ -44,22 +44,22 @@ describe('subject', function () {
 	describe('provider', function () {
 
 		it('finds the provider for vimeo', function () {
-			var res = subject.resolve(vimeoUrl);
+			var res = subject.getProvider(vimeoUrl);
 			assert.equal(res, 'vimeo');
 		});
 
 		it('finds the provider for youtube', function () {
-			var res = subject.resolve(youtubeUrl);
+			var res = subject.getProvider(youtubeUrl);
 			assert.equal(res, 'youtube');
 		});
 
 		it('finds the provider for confreaks', function () {
-			var res = subject.resolve(cfUrl);
+			var res = subject.getProvider(cfUrl);
 			assert.equal(res, 'confreaks');
 		});
 
 		it('returns unknown provider if unknown', function () {
-			var res = subject.resolve("http://www.xyz.com");
+			var res = subject.getProvider("http://www.xyz.com");
 			assert.equal(res, 'unknown');
 		});
 
