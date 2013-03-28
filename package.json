@@ -1,6 +1,6 @@
 {
   "name": "videoinfo",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Video info retriever",
   "main": "lib/main.js",
   "scripts": {
@@ -27,6 +27,6 @@
   "dependencies": {
     "n-vimeo": "~0.3.0",
     "youtube-feeds": "~2.2.0",
-    "confreaks": "~0.1.3"
+    "confreaks": "~0.1.4"
   }
 }
