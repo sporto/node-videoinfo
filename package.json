@@ -1,6 +1,6 @@
 {
   "name": "videoinfo",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Video info retriever",
   "main": "lib/main.js",
   "scripts": {
