@@ -27,6 +27,6 @@
   "dependencies": {
     "n-vimeo": "~0.3.0",
     "youtube-feeds": "~2.2.0",
-    "confreaks": "0.0.2"
+    "confreaks": "~0.1.0"
   }
 }
