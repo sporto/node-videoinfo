@@ -7,7 +7,7 @@ subject.__set__('retriever', function (id, cb) {
 	return cb(null, fakeResponse);
 });
 
-describe('vimeo', function () {
+describe('youtube', function () {
 
 	var response = null;
 
@@ -43,7 +43,7 @@ describe('vimeo', function () {
 	});
 
 	it('has thumbL', function () {
-		assert.equal(response.thumbL, 'http://i.ytimg.com/vi/9eHbqMayxv8/default.jpg');
+		assert.equal(response.thumbL, 'http://i.ytimg.com/vi/9eHbqMayxv8/hqdefault.jpg');
 	});
 
 
