@@ -1,6 +1,8 @@
 VideoInfo
 =========
 
+[![Build Status](https://travis-ci.org/sporto/node-videoinfo.js.png)](https://travis-ci.org/sporto/node-videoinfo.js)
+
 A node module for retrieving information of videos from popular video services.
 
 Supported services:
@@ -33,3 +35,12 @@ Data will have the following schema
 		thumbM: "thumbnail/path",
 		thumbL: "thumbnail/path"
 	}
+
+Running Test
+------------
+
+	mocha
+
+	or
+
+	grunt test
