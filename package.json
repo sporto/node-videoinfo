@@ -4,7 +4,7 @@
   "description": "Video info retriever",
   "main": "lib/main.js",
   "scripts": {
-    "test": "grunt test"
+    "test": "mocha $(find test -name '*_test.js')"
   },
   "repository": "",
   "keywords": [
