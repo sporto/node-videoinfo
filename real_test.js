@@ -20,6 +20,11 @@ main.fetch('http://www.youtube.com/v/Gz18KskDxv4&fs=1&rel=0&wmode=opaque&ap=%252
 	console.log(data);
 });
 
+main.fetch('http://www.youtube.com/embed/0bmbGsJDE1o?fs=1&rel=0&wmode=opaque&ap=%2526fmt%3D18', function (err, data) {
+	console.log('==YOUTUBE EMBED URL FORMAT==');
+	console.log(data);
+});
+
 main.fetch('http://www.confreaks.com/videos/1288-rubyconf2012-ruby-vs-the-world', function (err, data) {
 	console.log('==CONFREAKS==');
 	console.log(data);
